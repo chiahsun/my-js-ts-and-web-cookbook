@@ -1,0 +1,8 @@
+.idea/
+dark.css
+# For other directory, we may need to include index.html
+# Don't put comment on the same line with the files. It breaks the inclusion
+/index.html
+
+# .gitignore is generated from Mine.gitignore and other downloaded gitignore files
+# Do not edit it directly

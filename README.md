@@ -1,1 +1,1 @@
-# my-js-ts-and-web-cookbook
+# My Javascript, TypeScript and Web Cookbook
