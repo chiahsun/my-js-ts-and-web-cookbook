@@ -1,1 +1,1 @@
-# My Javascript, TypeScript and Web Cookbook
+# My Javascript, TypeScript and Web Development Cookbook

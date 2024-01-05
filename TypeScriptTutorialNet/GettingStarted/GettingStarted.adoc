@@ -1,0 +1,80 @@
+
+=== Getting Started
+
+==== Installation
+
+Install typescript and https://github.com/TypeStrong/ts-node[ts-node]
+
+https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-internal-or-external-command-operable-program[SO]
+
+[source,shell]
+----
+$ npm install -D typescript
+$ npm install -D ts-node
+$ npx tsc --v
+Version 5.3.3
+$ npx ts-node -v
+v10.9.2
+----
+
+
+==== What is TypeScript
+
+[source,javascript]
+----
+include::why.js[]
+----
+
+[source]
+----
+include::why.js.log[]
+----
+
+
+[source,typescript]
+----
+include::why.ts[]
+----
+
+[source]
+----
+include::why.ts.log[]
+----
+
+
+==== TypeScript Hello World
+
+[source,typescript]
+----
+include::hello.ts[]
+----
+
+[source]
+----
+include::hello.ts.log[]
+----
+
+TODO: https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/[TS usage in html]
+
+==== Why TypeScript
+
+[source,javascript]
+----
+include::product.js[]
+----
+
+[source]
+----
+include::product.js.log[]
+----
+
+
+[source,typescript]
+----
+include::product.ts[]
+----
+
+[source]
+----
+include::product.ts.log[]
+----
