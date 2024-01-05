@@ -136,3 +136,27 @@ include::object.ts.log[]
 |===
 
 
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-array-type/[Array]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::array.ts[]
+----
+
+|
+[source]
+----
+include::array.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::array.d.ts[]
+----

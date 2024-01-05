@@ -1,5 +1,5 @@
 
-all: inference.d.ts
+all: inference.d.ts array.d.ts
 
 %.d.ts: %.ts
 	npx tsc -d $< 
