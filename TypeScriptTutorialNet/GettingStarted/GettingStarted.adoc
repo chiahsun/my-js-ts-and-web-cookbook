@@ -1,21 +1,6 @@
 
 === Getting Started
 
-==== Installation
-
-Install typescript and https://github.com/TypeStrong/ts-node[ts-node]
-
-https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-internal-or-external-command-operable-program[SO]
-
-[source,shell]
-----
-$ npm install -D typescript
-$ npm install -D ts-node
-$ npx tsc --v
-Version 5.3.3
-$ npx ts-node -v
-v10.9.2
-----
 
 
 ==== What is TypeScript

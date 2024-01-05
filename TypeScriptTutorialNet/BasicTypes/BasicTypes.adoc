@@ -61,3 +61,22 @@ include::inference.d.ts[]
 ----
 
 ==== https://typescripttutorial.net/typescript-tutorial/typescript-number/[TypeScript Number]
+
+Javascript numbers:
+
+* `number`: floating point
+* `bigint`: big integers
+
+
+[source,javascript]
+----
+include::number.ts[]
+----
+<1> For your `tsconfig.json`, you need to set target greater or equal to `es2020` or it will report `error TS2737: BigInt literals are not available when targeting lower than ES2020`.
+
+[source]
+----
+include::number.ts.log[]
+----
+
+

@@ -1,0 +1,53 @@
+
+=== Installation
+
+==== Install `tsc` and `ts-code`
+
+Install typescript compiler, `tsc` and https://github.com/TypeStrong/ts-node[ts-node]
+
+https://stackoverflow.com/questions/44764004/ts-node-is-not-recognized-as-an-internal-or-external-command-operable-program[SO]
+
+[source,shell]
+----
+$ npm install -D typescript
+$ npm install -D ts-node
+$ npx tsc --v
+Version 5.3.3
+$ npx ts-node -v
+v10.9.2
+----
+
+==== Set up `tsconfig.json`
+
+[source,shell]
+----
+$ tsc --init
+
+Created a new tsconfig.json with:
+TS
+target: es2016
+module: commonjs
+strict: true
+esModuleInterop: true
+skipLibCheck: true
+forceConsistentCasingInFileNames: true
+
+
+You can learn more at https://aka.ms/tsconfig
+----
+
+Modify `tsconfig.json` so that
+
+link:tsconfig.json[]
+
+[source,json]
+----
+include::tsconfig.json[]
+----
+
+* To use bigint, change `target` from `es2016` to `es2020`
+
+[source,shell]
+----
+$ npx ts-node --showConfig
+----
