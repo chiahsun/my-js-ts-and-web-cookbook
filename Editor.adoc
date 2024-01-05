@@ -1,0 +1,7 @@
+
+=== Editor
+
+You can use https://www.jetbrains.com/fleet/[JetBrains Fleet] or https://code.visualstudio.com/[Visual Studio Code] for several benefits.
+
+* Automatic type annotation for type inference on your source code when editing.
+* Warning & Errors before you compile the code.

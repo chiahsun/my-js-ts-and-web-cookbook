@@ -1,0 +1,63 @@
+=== Basic Types
+
+==== TypeScript Types
+
+To support DOM manipulation in the following example,
+
+Add `tsconfig.json` for
+
+[source,json]
+----
+{
+  // ...
+  "compilerOptions": {
+    "lib": [
+      "DOM"
+    ]
+  }
+}
+----
+
+[source,javascript]
+----
+include::heading.ts[]
+----
+
+[source]
+----
+include::heading.ts.log[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-annotations/[TypeScript Annotations]
+
+[source,javascript]
+----
+include::annotation.ts[]
+----
+<1> There should be error here, but the compiler passes it. There may be compiler options to set stricter checking.
+
+[source]
+----
+include::annotation.ts.log[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-inference/[TypeScript Type Inference]
+
+link:./TypeScriptTutorialNet/BasicTypes/inference.ts[inference.ts]
+
+[source,javascript]
+----
+include::inference.ts[]
+----
+
+[source,bash]
+$ npx tsc -d inference.ts
+
+link:./TypeScriptTutorialNet/BasicTypes/inference.d.ts[inference.d.ts]
+
+[source]
+----
+include::inference.d.ts[]
+----
+
+==== https://typescripttutorial.net/typescript-tutorial/typescript-number/[TypeScript Number]

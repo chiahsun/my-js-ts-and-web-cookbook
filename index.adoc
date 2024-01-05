@@ -13,11 +13,14 @@
 :sectnums:
 :sectnumlevels: 4
 
+== Environment & Setup
+include::Editor.adoc[]
+
 [discrete]
 = Tutorials & Guides
 == TypeScript Tutorial Net
 include::TypeScriptTutorialNet/GettingStarted/GettingStarted.adoc[]
-
+include::TypeScriptTutorialNet/BasicTypes/BasicTypes.adoc[]
 
 
 
