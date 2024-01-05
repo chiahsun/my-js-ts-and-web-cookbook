@@ -50,4 +50,11 @@ include::tsconfig.json[]
 [source,shell]
 ----
 $ npx ts-node --showConfig
+$ npx ts-node --showConfig | jq '{ compilerOptions: { strict: .compilerOptions.strict } }'
+{
+  "compilerOptions": {
+    "strict": true // <1>
+  }
+}
 ----
+<1> `strict` implies `--strictNullChecks`

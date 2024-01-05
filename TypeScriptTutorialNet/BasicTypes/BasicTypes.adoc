@@ -201,3 +201,38 @@ include::enum.ts.log[]
 ----
 |===
 
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-any-type/[Any]
+
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::any.ts[]
+----
+
+|
+[source]
+----
+include::any.ts.log[]
+----
+|===
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-void-type/[void]
+
+
+[source,typescript]
+----
+include::void.ts[lines=3..]
+----
+<1> It won't compile if `--strictNullChecks` is true in `tsconfig.json`
+
+[source]
+----
+include::void.ts.log[]
+----
+
