@@ -203,7 +203,6 @@ include::enum.ts.log[]
 
 ==== https://www.typescripttutorial.net/typescript-tutorial/typescript-any-type/[Any]
 
-
 [cols="a,a", options="header"]
 |===
 ^.^| Source
@@ -238,8 +237,6 @@ include::void.ts.log[]
 
 ==== https://www.typescripttutorial.net/typescript-tutorial/typescript-never-type/[never]
 
-
-
 [source,typescript]
 ----
 include::never.ts[]
@@ -250,4 +247,45 @@ include::never.ts[]
 include::never.d.ts[]
 ----
 
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-union-type/[union]
 
+
+[source,typescript]
+----
+include::union.ts[]
+----
+
+[source]
+----
+include::union.ts.log[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-aliases/[Type Alias]
+
+[source,typescript]
+----
+include::alias.ts[]
+----
+
+[source]
+----
+include::alias.d.ts[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-string-literal-types/[Literal Types]
+
+
+[source,typescript]
+----
+include::literal.ts[]
+----
+
+[source]
+----
+include::literal.ts.log[]
+----
+
+[source]
+----
+include::literal.d.ts[]
+----
