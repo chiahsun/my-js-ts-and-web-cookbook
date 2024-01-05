@@ -1,6 +1,16 @@
 === Basic Types
 
-==== TypeScript Types
+==== Types
+
+The https://www.typescripttutorial.net/typescript-tutorial/typescript-object-type/[primitive types] in TypeScript:
+
+* number, bigint
+* string
+* boolean
+* null, undefined
+* symbol
+
+Non-primitive type is of type `object`.
 
 To support DOM manipulation in the following example,
 
@@ -28,7 +38,7 @@ include::heading.ts[]
 include::heading.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-annotations/[TypeScript Annotations]
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-annotations/[Type Annotations]
 
 [source,javascript]
 ----
@@ -41,7 +51,7 @@ include::annotation.ts[]
 include::annotation.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-inference/[TypeScript Type Inference]
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-inference/[Type Inference]
 
 link:./TypeScriptTutorialNet/BasicTypes/inference.ts[inference.ts]
 
@@ -60,7 +70,7 @@ link:./TypeScriptTutorialNet/BasicTypes/inference.d.ts[inference.d.ts]
 include::inference.d.ts[]
 ----
 
-==== https://typescripttutorial.net/typescript-tutorial/typescript-number/[TypeScript Number]
+==== https://typescripttutorial.net/typescript-tutorial/typescript-number/[Number]
 
 Javascript numbers:
 
@@ -78,5 +88,51 @@ include::number.ts[]
 ----
 include::number.ts.log[]
 ----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-string/[String]
+
+[source,javascript]
+----
+include::string.ts[]
+----
+
+[source,javascript]
+----
+include::string.ts.log[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-boolean/[Boolean]
+
+[source,javascript]
+----
+include::boolean.ts[]
+----
+
+[source,javascript]
+----
+include::boolean.ts.log[]
+----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-object-type/[Object]
+
+https://stackoverflow.com/questions/72004882/asciidoctor-how-to-layout-two-code-blocks-side-by-side[Side-by-side SO]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::object.ts[]
+----
+
+|
+[source]
+----
+include::object.ts.log[]
+----
+|===
 
 
