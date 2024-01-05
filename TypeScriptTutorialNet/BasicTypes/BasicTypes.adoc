@@ -160,3 +160,44 @@ include::array.ts.log[]
 ----
 include::array.d.ts[]
 ----
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-tuple/[Tuple]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::tuple.ts[]
+----
+
+|
+[source]
+----
+include::tuple.ts.log[]
+----
+|===
+
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-enum/[Enum]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::enum.ts[]
+----
+
+|
+[source]
+----
+include::enum.ts.log[]
+----
+|===
+
