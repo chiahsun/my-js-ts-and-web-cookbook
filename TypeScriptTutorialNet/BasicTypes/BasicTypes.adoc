@@ -236,3 +236,18 @@ include::void.ts[lines=3..]
 include::void.ts.log[]
 ----
 
+==== https://www.typescripttutorial.net/typescript-tutorial/typescript-never-type/[never]
+
+
+
+[source,typescript]
+----
+include::never.ts[]
+----
+
+[source]
+----
+include::never.d.ts[]
+----
+
+
