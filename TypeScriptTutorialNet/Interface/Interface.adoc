@@ -45,3 +45,4 @@ include::extend.d.ts[]
 
 For interface `someInterface` extend `someClass`, only `someClass` or its subclass can implement `someInterface` even if they have the same signatures.
 
+https://www.typescripttutorial.net/typescript-tutorial/interfaces-vs-abstract-classes/[Interface v.s. Abstract Classes]

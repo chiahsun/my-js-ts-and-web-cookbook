@@ -195,3 +195,6 @@ include::abstract_class.ts[]
 include::abstract_class.ts.log[]
 ----
 |===
+
+
+

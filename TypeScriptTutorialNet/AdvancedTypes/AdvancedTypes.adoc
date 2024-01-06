@@ -1,0 +1,18 @@
+
+=== Advanced Types
+
+[source,typescript]
+----
+include::intersection_types.ts[]
+----
+
+[source]
+----
+include::intersection_types.ts.log[]
+----
+
+[source,typescript]
+----
+include::intersection_types.d.ts[]
+----
+
