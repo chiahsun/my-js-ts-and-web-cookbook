@@ -16,3 +16,20 @@ include::intersection_types.ts.log[]
 include::intersection_types.d.ts[]
 ----
 
+https://www.typescripttutorial.net/typescript-tutorial/typescript-type-guards/[Type Guards]
+
+
+[source,typescript]
+----
+include::guards.ts[]
+----
+
+[source]
+----
+include::guards.ts.log[]
+----
+
+[source,typescript]
+----
+include::guards.d.ts[]
+----
