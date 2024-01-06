@@ -4,3 +4,4 @@
 include::GettingStarted/GettingStarted.adoc[]
 include::BasicTypes/BasicTypes.adoc[]
 include::ControlFlow/ControlFlow.adoc[]
+include::Function/Function.adoc[]

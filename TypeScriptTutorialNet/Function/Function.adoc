@@ -1,0 +1,62 @@
+=== Function
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-functions/[Functions]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-function-types/[Function Types]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::function_types.ts[]
+----
+
+|
+[source]
+----
+include::function_types.ts.log[]
+----
+|===
+
+[source]
+----
+include::function_types.d.ts[]
+----
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-optional-parameters/[Optional parameters]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::optional.ts[]
+----
+
+|
+[source]
+----
+include::optional.ts.log[]
+----
+|===
+
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-default-parameters/[Default parameters]
+
+[source,typescript]
+----
+include::default_parameter.ts[]
+----
+
+[source]
+----
+include::default_parameter.ts.log[]
+----
+
