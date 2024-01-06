@@ -1,0 +1,6 @@
+
+== Change language / 更換語言
+
+link:index.html[English]
+
+link:index-zh_TW.html[繁體中文]

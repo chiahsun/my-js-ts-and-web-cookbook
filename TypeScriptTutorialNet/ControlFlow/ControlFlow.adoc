@@ -1,0 +1,38 @@
+ifeval::["{lang}" == "en"]
+=== Control Flow
+endif::[]
+ifeval::["{lang}" == "zh_TW"]
+=== 控制流程
+endif::[]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-if-else/[if / else]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-switch-case/[switch case]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-for/[for]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-while/[while]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-do-while/[do while]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-break/[break]
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-continue/[continue]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::continue.ts[]
+----
+
+|
+[source]
+----
+include::continue.ts.log[]
+----
+|===
