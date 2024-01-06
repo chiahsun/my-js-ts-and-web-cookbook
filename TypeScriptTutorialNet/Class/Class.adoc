@@ -142,3 +142,24 @@ include::getter_setter.ts.log[]
 include::getter_setter.d.ts[]
 ----
 
+https://www.typescripttutorial.net/typescript-tutorial/typescript-inheritance/[Inheritance]
+
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::inheritance.ts[]
+----
+
+|
+[source]
+----
+include::inheritance.ts.log[]
+----
+|===
+
