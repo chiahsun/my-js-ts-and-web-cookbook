@@ -163,3 +163,35 @@ include::inheritance.ts.log[]
 ----
 |===
 
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-static-methods-and-properties/[Static Methods and Properties]
+
+[source,typescript]
+----
+include::static.ts[]
+----
+
+[source]
+----
+include::static.ts.log[]
+----
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-abstract-classes/[Abstract Class]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::abstract_class.ts[]
+----
+
+|
+[source]
+----
+include::abstract_class.ts.log[]
+----
+|===
