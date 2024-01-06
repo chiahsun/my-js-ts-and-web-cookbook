@@ -1,5 +1,5 @@
 
-all: function_types.d.ts 
+all: function_types.d.ts overloading.d.ts
 
 %.d.ts: %.ts
 	npx tsc -d $< 
