@@ -68,3 +68,59 @@ include::class.ts.log[]
 ----
 include::class.d.ts[]
 ----
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-access-modifiers/[Access modifier]
+
+
+For any method not specified, it would be `public` by default.
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::access_modifier.ts[]
+----
+
+|
+[source]
+----
+include::access_modifier.ts.log[]
+----
+|===
+
+`protected` modifier would be explained later in the inheritance.
+
+[source, typescript]
+----
+include::access_modifier.d.ts[]
+----
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-readonly/[read-only]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::read_only.ts[]
+----
+
+|
+[source]
+----
+include::read_only.ts.log[]
+----
+|===
+
+[source, typescript]
+----
+include::read_only.d.ts[]
+----
+
