@@ -1,0 +1,47 @@
+=== Interface
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-interface/[Interface]
+
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::interface.ts[]
+----
+
+|
+[source]
+----
+include::interface.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::interface.d.ts[]
+----
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-extend-interface/[Extend Interface]
+
+[source,typescript]
+----
+include::extend.ts[]
+----
+
+[source]
+----
+include::extend.ts.log[]
+----
+
+[source,typescript]
+----
+include::extend.d.ts[]
+----
+
+For interface `someInterface` extend `someClass`, only `someClass` or its subclass can implement `someInterface` even if they have the same signatures.
+
