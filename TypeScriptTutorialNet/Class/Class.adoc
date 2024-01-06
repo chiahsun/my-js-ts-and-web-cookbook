@@ -124,3 +124,21 @@ include::read_only.ts.log[]
 include::read_only.d.ts[]
 ----
 
+https://www.typescripttutorial.net/typescript-tutorial/typescript-getters-setters/[Getters and Setters]
+
+
+[source,typescript]
+----
+include::getter_setter.ts[]
+----
+
+[source]
+----
+include::getter_setter.ts.log[]
+----
+
+[source, typescript]
+----
+include::getter_setter.d.ts[]
+----
+
