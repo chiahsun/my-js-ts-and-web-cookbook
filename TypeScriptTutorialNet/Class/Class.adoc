@@ -1,0 +1,70 @@
+
+=== Class
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-class/[Classes]
+
+`class_es5.js`
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,javascript]
+----
+include::class_es5.js[]
+----
+
+|
+[source]
+----
+include::class_es5.js.log[]
+----
+|===
+
+`class_es6.js`
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,javascript]
+----
+include::class_es6.js[]
+----
+
+|
+[source]
+----
+include::class_es6.js.log[]
+----
+|===
+
+
+`class.ts`
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::class.ts[]
+----
+
+|
+[source]
+----
+include::class.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::class.d.ts[]
+----

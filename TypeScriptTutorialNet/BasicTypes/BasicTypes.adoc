@@ -38,7 +38,7 @@ include::heading.ts[]
 include::heading.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-annotations/[Type Annotations]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-type-annotations/[Type Annotations]
 
 [source,javascript]
 ----
@@ -51,7 +51,7 @@ include::annotation.ts[]
 include::annotation.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-inference/[Type Inference]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-type-inference/[Type Inference]
 
 link:./TypeScriptTutorialNet/BasicTypes/inference.ts[inference.ts]
 
@@ -70,7 +70,7 @@ link:./TypeScriptTutorialNet/BasicTypes/inference.d.ts[inference.d.ts]
 include::inference.d.ts[]
 ----
 
-==== https://typescripttutorial.net/typescript-tutorial/typescript-number/[Number]
+https://typescripttutorial.net/typescript-tutorial/typescript-number/[Number]
 
 Javascript numbers:
 
@@ -89,7 +89,7 @@ include::number.ts[]
 include::number.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-string/[String]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-string/[String]
 
 [source,javascript]
 ----
@@ -101,7 +101,7 @@ include::string.ts[]
 include::string.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-boolean/[Boolean]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-boolean/[Boolean]
 
 [source,javascript]
 ----
@@ -113,7 +113,7 @@ include::boolean.ts[]
 include::boolean.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-object-type/[Object]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-object-type/[Object]
 
 https://stackoverflow.com/questions/72004882/asciidoctor-how-to-layout-two-code-blocks-side-by-side[Side-by-side SO]
 
@@ -136,7 +136,7 @@ include::object.ts.log[]
 |===
 
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-array-type/[Array]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-array-type/[Array]
 
 [cols="a,a", options="header"]
 |===
@@ -161,7 +161,7 @@ include::array.ts.log[]
 include::array.d.ts[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-tuple/[Tuple]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-tuple/[Tuple]
 
 [cols="a,a", options="header"]
 |===
@@ -181,7 +181,7 @@ include::tuple.ts.log[]
 ----
 |===
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-enum/[Enum]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-enum/[Enum]
 
 [cols="a,a", options="header"]
 |===
@@ -201,7 +201,7 @@ include::enum.ts.log[]
 ----
 |===
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-any-type/[Any]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-any-type/[Any]
 
 [cols="a,a", options="header"]
 |===
@@ -221,7 +221,7 @@ include::any.ts.log[]
 ----
 |===
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-void-type/[void]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-void-type/[void]
 
 
 [source,typescript]
@@ -235,7 +235,7 @@ include::void.ts[lines=3..]
 include::void.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-never-type/[never]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-never-type/[never]
 
 [source,typescript]
 ----
@@ -247,7 +247,7 @@ include::never.ts[]
 include::never.d.ts[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-union-type/[union]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-union-type/[union]
 
 
 [source,typescript]
@@ -260,7 +260,7 @@ include::union.ts[]
 include::union.ts.log[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-type-aliases/[Type Alias]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-type-aliases/[Type Alias]
 
 [source,typescript]
 ----
@@ -272,7 +272,7 @@ include::alias.ts[]
 include::alias.d.ts[]
 ----
 
-==== https://www.typescripttutorial.net/typescript-tutorial/typescript-string-literal-types/[Literal Types]
+https://www.typescripttutorial.net/typescript-tutorial/typescript-string-literal-types/[Literal Types]
 
 
 [source,typescript]
