@@ -25,3 +25,20 @@ include::generics.ts.log[]
 include::generics.d.ts[]
 ----
 
+https://www.typescripttutorial.net/typescript-tutorial/typescript-generic-constraints/[Generic Constraints]
+
+
+[source,typescript]
+----
+include::generic_constraints.ts[]
+----
+
+[source]
+----
+include::generic_constraints.ts.log[]
+----
+
+[source,typescript]
+----
+include::generic_constraints.d.ts[]
+----

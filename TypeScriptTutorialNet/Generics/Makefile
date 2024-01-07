@@ -1,5 +1,5 @@
 
-all: generics.d.ts
+all: generics.d.ts generic_constraints.d.ts
 
 %.d.ts: %.ts
 	npx tsc -d $< 
