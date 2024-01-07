@@ -13,6 +13,7 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.1",
     "codemirror": "^6.0.1"
   }
 }

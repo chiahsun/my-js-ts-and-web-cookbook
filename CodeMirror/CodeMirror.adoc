@@ -78,3 +78,24 @@ new EditorView({
   parent: document.body
 })
 ----
+
+[source,bash]
+----
+$ npm install @codemirror/lang-javascript
+$ cat package.json | grep 'lang'
+    "@codemirror/lang-javascript": "^6.2.1",
+----
+
+[source,typescript]
+----
+include::2-JavaScriptSupport/editor.ts[]
+----
+<1> Import `lang-javascript` library from `codemirror`
+<2> Add javascript extension
+
+
+[source,css]
+----
+include::2-JavaScriptSupport/style.css[lines=98..100]
+----
+<1> Align text to left since its parent align text middle
