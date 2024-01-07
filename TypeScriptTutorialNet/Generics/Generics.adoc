@@ -42,3 +42,31 @@ include::generic_constraints.ts.log[]
 ----
 include::generic_constraints.d.ts[]
 ----
+
+
+https://www.typescripttutorial.net/typescript-tutorial/typescript-generic-classes/[Generic Class]
+
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::generic_class.ts[]
+----
+
+|
+[source]
+----
+include::generic_class.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::generic_class.d.ts[]
+----
+
