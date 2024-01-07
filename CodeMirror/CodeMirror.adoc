@@ -1,0 +1,80 @@
+
+== https://codemirror.net/docs/[CodeMirror] - Implement Your Editor
+
+=== Create the Vanilla TypeScript Vite Project
+
+[source,bash]
+----
+$ npm create vite@latest my-code-editor -- --template vanilla-ts
+$ cd my-code-editor
+$ npm install
+$ npm run dev # (or npx vite)
+----
+
+=== Code Editor
+
+[source,bash]
+----
+$ npm install codemirror
+$ cat package.json | jq '{dependencies: .dependencies}'
+{
+  "dependencies": {
+    "codemirror": "^6.0.1"
+  }
+}
+----
+
+From the https://codemirror.net/try/?example[example site - minimal editor],
+
+[source,typescript]
+----
+import {minimalSetup, EditorView} from "codemirror"
+
+new EditorView({
+  doc: "...",
+  extensions: minimalSetup,
+  parent: document.body
+})
+----
+
+Modify `src/main.ts`
+
+[source,typescript]
+----
+// ...
+include::1-BasicEditor/main.ts[lines=4..8]
+    // ...
+include::1-BasicEditor/main.ts[lines=15]
+    // ...
+include::1-BasicEditor/main.ts[lines=23..28]
+----
+<1> Include our editor module
+<2> Declare a `div` with id `editor`
+<3> Pass the editor div to our setup function
+
+Add `src/editor.ts` as
+
+[source,typescript]
+----
+include::1-BasicEditor/editor.ts[]
+----
+<1> Put any content you want to show as default in the editor source code
+<2> We use `basicSetup` instead of `minimalSetup`
+<3> `parent` is the div element passed which would be the container div for our editor view
+
+
+=== Add JavaScript Support
+
+From the example site,
+
+[source,typescript]
+----
+import {basicSetup, EditorView} from "codemirror"
+import {javascript} from "@codemirror/lang-javascript"
+
+new EditorView({
+  doc: "console.log('hello')\n",
+  extensions: [basicSetup, javascript()],
+  parent: document.body
+})
+----
