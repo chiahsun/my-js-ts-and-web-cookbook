@@ -31,7 +31,7 @@ $ cat my-vue-app/package.json | jq '{dependencies: .dependencies}'
 
 [source,bash]
 ----
- cat my-vue-app/package.json | jq '{devDependencies: .devDependencies}'
+$ cat my-vue-app/package.json | jq '{devDependencies: .devDependencies}'
 {
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
@@ -41,3 +41,51 @@ $ cat my-vue-app/package.json | jq '{dependencies: .dependencies}'
   }
 }
 ----
+
+[source,bash]
+----
+$ cat my-vue-app/package.json | jq '{scripts: .scripts}'
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  }
+}
+----
+
+
+[source,bash]
+----
+$ npm install
+$ npm run dev # (or npx vite)
+----
+
+For more options
+[source,bash]
+$ npx vite --help
+
+Visit your page at `http://localhost:5173/`
+
+
+1. Test hot module reloading
+Modify `src/components/HelloWorld.vue` from
++
+[source,html]
+----
+include::my-vue-app/src/components/HelloWorld.vue[lines=13]
+----
++
+to
++
+[source,html]
+----
+    <button type="button" @click="count++">Count is {{ count }}</button>
+----
++
+The change would apply to your web page instantly.
+
+Other https://github.com/vitejs/awesome-vite#templates[Vite community template]
+
+
+
