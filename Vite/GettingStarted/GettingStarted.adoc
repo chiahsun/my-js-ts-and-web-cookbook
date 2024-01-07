@@ -1,0 +1,43 @@
+
+
+==== https://vitejs.dev/guide/[Getting Started]
+
+https://stackblitz.com/edit/vitejs-vite-7wzw2k?file=index.html&terminal=dev[Stackblitz - Try Vite In Browser]
+
+[source,bash]
+$ npm create vite@latest
+
+* Project name: `my-vue-app`
+* Select a framework: `Vue`
+* Select a variant: `TypeScript`
+
+[source,bash]
+----
+$ cat my-vue-app/tsconfig.json | grep 'target\|module[^R]\|lib'
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+----
+
+[source,bash]
+----
+$ cat my-vue-app/package.json | jq '{dependencies: .dependencies}'
+{
+  "dependencies": {
+    "vue": "^3.3.11"
+  }
+}
+----
+
+[source,bash]
+----
+ cat my-vue-app/package.json | jq '{devDependencies: .devDependencies}'
+{
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
+----

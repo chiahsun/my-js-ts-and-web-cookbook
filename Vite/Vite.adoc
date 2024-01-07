@@ -1,0 +1,10 @@
+
+== https://vitejs.dev/[Vite]
+
+=== https://vitejs.dev/guide/[Guide]
+
+https://vitejs.dev/guide/why.html[Why Vite]
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules[JavaScript module]
+
+include::GettingStarted/GettingStarted.adoc[]

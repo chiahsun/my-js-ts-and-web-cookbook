@@ -22,3 +22,12 @@ include::Editor.adoc[]
 [discrete]
 = Tutorials & Guides
 include::TypeScriptTutorialNet/TypeScriptTutorialNet.adoc[]
+
+[discrete]
+= Toolchains
+include::Vite/Vite.adoc[]
+
+[discrete]
+= Applications
+include::CodeMirror/CodeMirror.adoc[]
+
