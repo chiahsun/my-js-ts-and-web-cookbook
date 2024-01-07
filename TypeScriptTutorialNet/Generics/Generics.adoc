@@ -70,3 +70,29 @@ include::generic_class.ts.log[]
 include::generic_class.d.ts[]
 ----
 
+https://www.typescripttutorial.net/typescript-tutorial/typescript-generic-interfaces/[Generic interface]
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::generic_interface.ts[]
+----
+
+|
+[source]
+----
+include::generic_interface.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::generic_interface.d.ts[]
+----
+
+
