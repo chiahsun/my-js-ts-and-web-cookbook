@@ -8,3 +8,5 @@ include::Function/Function.adoc[]
 include::Class/Class.adoc[]
 include::Interface/Interface.adoc[]
 include::AdvancedTypes/AdvancedTypes.adoc[]
+include::Generics/Generics.adoc[]
+

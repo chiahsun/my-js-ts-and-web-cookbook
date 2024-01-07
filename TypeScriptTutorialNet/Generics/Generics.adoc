@@ -1,0 +1,27 @@
+
+=== https://www.typescripttutorial.net/typescript-tutorial/typescript-generics/[Generics]
+
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::generics.ts[]
+----
+
+|
+[source]
+----
+include::generics.ts.log[]
+----
+|===
+
+[source,typescript]
+----
+include::generics.d.ts[]
+----
+
