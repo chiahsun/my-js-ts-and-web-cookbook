@@ -45,3 +45,21 @@ include::casting.ts[]
 ----
 include::casting.ts.log[]
 ----
+
+https://www.typescripttutorial.net/typescript-tutorial/type-assertions/[Type Assertions]
+
+
+[source,typescript]
+----
+include::type_assertions.ts[]
+----
+
+[source]
+----
+include::type_assertions.ts.log[]
+----
+
+[source,typescript]
+----
+include::type_assertions.d.ts[]
+----

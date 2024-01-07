@@ -1,5 +1,5 @@
 
-all: intersection_types.d.ts guards.d.ts
+all: intersection_types.d.ts guards.d.ts type_assertions.d.ts
 
 %.d.ts: %.ts
 	npx tsc -d $< 
