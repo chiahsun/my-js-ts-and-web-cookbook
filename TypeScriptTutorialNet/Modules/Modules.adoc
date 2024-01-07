@@ -1,0 +1,31 @@
+
+
+=== https://www.typescripttutorial.net/typescript-tutorial/typescript-modules/[Modules]
+
+[source,typescript]
+----
+include::Validator.ts[]
+----
+
+[source,typescript]
+----
+include::Validator.d.ts[]
+----
+
+[cols="a,a", options="header"]
+|===
+^.^| Source
+^.^| Output
+
+|
+[source,typescript]
+----
+include::EmailValidator.ts[]
+----
+
+|
+[source]
+----
+include::EmailValidator.ts.log[]
+----
+|===
