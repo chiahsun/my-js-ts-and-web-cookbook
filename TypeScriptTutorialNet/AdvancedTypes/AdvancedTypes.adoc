@@ -33,3 +33,15 @@ include::guards.ts.log[]
 ----
 include::guards.d.ts[]
 ----
+
+https://www.typescripttutorial.net/typescript-tutorial/type-casting/[Type Casting]
+
+[source,javascript]
+----
+include::casting.ts[]
+----
+
+[source]
+----
+include::casting.ts.log[]
+----
