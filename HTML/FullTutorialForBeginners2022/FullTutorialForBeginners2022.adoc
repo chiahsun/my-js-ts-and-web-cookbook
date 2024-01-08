@@ -1,0 +1,31 @@
+
+
+=== https://www.youtube.com/watch?v=kUMe1FH4CHE[Learn HTML - Full Tutorial for Beginners (2022)]
+
+https://github.com/gitdagray/html_course[Full Code]
+
+https://chromewebstore.google.com/detail/dark-new-tab/kcphhkbdlfggickaoeiahdcfhagfbajl[Dark new tab]
+
+
+==== Lesson 01
+
+Download https://code.visualstudio.com/Download#[VS Code]
+
+* Install extension `Live Server`
+   - Right click `Open with Live Server`
+
+Edit `index.html` as
+
+[source,html]
+----
+include::01_lesson/index.html.1.html[]
+----
+
+Use the https://validator.w3.org/[W3C Markup Validation Service] to check the above html and modify as follows:
+
+[source,html]
+----
+include::01_lesson/index.html.2.html[]
+----
+<1> Add document type as `html`
+<2> Specify language as `en`

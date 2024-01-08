@@ -1,4 +1,4 @@
-= My Javascript, TypeScript and Web Development Cookbook
+= My JavaScript, TypeScript and Web Development Cookbook
 :doctype: book
 :publication-type: book
 :toc: left
@@ -14,6 +14,9 @@
 :sectnumlevels: 4
 
 include::Languages.adoc[]
+
+include::HTML/HTML.adoc[]
+
 
 == Environment & Setup
 include::Installation.adoc[]

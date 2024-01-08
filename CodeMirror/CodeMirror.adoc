@@ -86,6 +86,8 @@ $ cat package.json | grep 'lang'
     "@codemirror/lang-javascript": "^6.2.1",
 ----
 
+Modify `src/editor.ts`
+
 [source,typescript]
 ----
 include::2-JavaScriptSupport/editor.ts[]
@@ -93,6 +95,8 @@ include::2-JavaScriptSupport/editor.ts[]
 <1> Import `lang-javascript` library from `codemirror`
 <2> Add javascript extension
 
+
+Modify `src/style.css`
 
 [source,css]
 ----

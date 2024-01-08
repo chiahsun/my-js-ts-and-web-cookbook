@@ -1,0 +1,27 @@
+
+==== Tidy
+
+Use https://api.html-tidy.org/[tidy] to validate and format HTML. https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_quickstart.html[Quick start] https://api.html-tidy.org/tidy/tidylib_api_5.2.0/tidy_config.html#using_config[Config]
+
+[source,shell]
+----
+$ man tidy
+$ man tidy | grep -e '-i'
+       -indent or -i  to indent element content
+$ man tidy | grep -e '-m'
+       -modify or -m  to modify the original input files
+$ cp index.html index.html.bak.html && tidy -im index.html
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 4 column 5 - Warning: <style> inserting "type" attribute
+----
+
+Alternatively, you can use a config file to finer control.
+[source]
+----
+include::myconfig.txt[]
+----
+
+[source,shell]
+----
+$ cp index.html index.html.bak.html && tidy -config myconfig.txt -m index.html
+----
