@@ -6,7 +6,6 @@ https://github.com/gitdagray/html_course[Full Code]
 
 https://chromewebstore.google.com/detail/dark-new-tab/kcphhkbdlfggickaoeiahdcfhagfbajl[Dark new tab]
 
-
 ==== Lesson 01
 
 Download https://code.visualstudio.com/Download#[VS Code]
@@ -29,3 +28,19 @@ include::01_lesson/index.html.2.html[]
 ----
 <1> Add document type as `html`
 <2> Specify language as `en`
+
+==== Lesson 02
+
+[source,html]
+----
+include::02_lesson/index.html.1.html[]
+----
+<1> Add icon as `html5.png`
+<2> Move stylesheet to `main.css`
+
+`main.css`
+[source,css]
+----
+include::02_lesson/main.css[]
+----
+
