@@ -51,3 +51,38 @@ https://stackoverflow.com/questions/40155875/how-can-i-do-tag-wrapping-in-visual
 * `Cmd` + `Shift` + `P`
 * Emmet: Wrap with Abbreviation
 * e.g. `abbr` > `Enter` > your title content
+
+==== Lesson 04
+
+Visual select you text > `Cmd + D` to select next same visual element > `Cmd + D` to select next same visual element > Enter `<li>`
+
+Install `Prettier Code Formatter`.
+
+* `Cmd + Shift + P` > `Format document`
+
+
+https://stackoverflow.com/questions/50975264/prettier-settings-for-vscode[SO prettier settings for VSCode]
+Edit `~/Library/Application\ Support/Code/User/settings.json`
+
+[source,json]
+----
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "prettier.requireConfig": true,
+    "prettier.prettierPath": ".prettierrc.json"
+}
+----
+
+Under your project root, edit `.prettierrc.json`
+[source,json]
+----
+{
+  "files.trimTrailingWhitespace": true
+}
+----
+
+`settings.json` path for VSCode: e.g. `~/.nodebrew/current/lib/node_modules/prettier`
