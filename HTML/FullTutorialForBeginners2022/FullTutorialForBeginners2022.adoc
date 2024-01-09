@@ -100,3 +100,30 @@ Type `lorem*1` for Emmet Abbreviation for https://en.wikipedia.org/wiki/Lorem_ip
 Use `CMD + <-` for going back on the browsing stack.
 
 Use `target="_blank"` to open the link in a new tab.
+
+==== Lesson 06
+
+Type `img` then `TAB` in VS Code for auto-completion.
+
+Provide `width` and `height` for `img` to preserve spacing before loading to avoid browser layout shift.
+
+Set attribute as `loading="lazy"` to load image only when the image is about to show.
+
+* `br*150` is not enough for Chrome now, set it as `br*300` https://stackoverflow.com/questions/57753240/native-lazy-loading-loading-lazy-not-working-even-with-flags-enabled[SO]
+
+
+Resources
+
+* https://via.placeholder.com/640x480[via.placeholder.com]
+
+* https://unsplash.com/[Unsplash]
+
+* https://www.pexels.com/[Pexels]
+
+* https://gratisography.com/[Gratisography]
+
+* https://pixabay.com/[Pixabay]
+
+* https://www.canva.com/[Canva]
+
+* https://tinypng.com/[TinyPNG]
