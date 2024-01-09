@@ -77,12 +77,26 @@ Edit `~/Library/Application\ Support/Code/User/settings.json`
 }
 ----
 
-Under your project root, edit `.prettierrc.json`
+* `settings.json` path for VSCode: e.g. `~/.nodebrew/current/lib/node_modules/prettier`
+
+Under your project root, edit `.prettierrc.json`. For more options, check https://prettier.io/docs/en/options.html[here]. https://stackoverflow.com/questions/58583840/unable-to-set-tab-width-to-4-in-prettier[SO]
+
 [source,json]
 ----
-{
-  "files.trimTrailingWhitespace": true
-}
+ {
+   "files.trimTrailingWhitespace": true,
+   "printWidth": 80,
+   "tabWidth": 4,
+   "useTabs": false
+ }
 ----
 
-`settings.json` path for VSCode: e.g. `~/.nodebrew/current/lib/node_modules/prettier`
+* Note that after you save `.prettierrc.json`, you need to reopen the file to make the plugin reload for the change.
+
+==== Lesson 05
+
+Type `lorem*1` for Emmet Abbreviation for https://en.wikipedia.org/wiki/Lorem_ipsum[Lorem ipsum]
+
+Use `CMD + <-` for going back on the browsing stack.
+
+Use `target="_blank"` to open the link in a new tab.
