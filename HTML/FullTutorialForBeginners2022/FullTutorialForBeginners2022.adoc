@@ -186,3 +186,15 @@ Install https://chromewebstore.google.com/detail/html5-outliner/afoibpobokebhgfn
 ==== Create Tables
 
 `&nbsp;`: space
+
+==== Forms & Inputs
+
+Type `input:text` > `TAB`
+
+Double click `firstName` > `CMD + D` > `CMD + D` > `<-` to the start of text > move cursor before s > change `fir` to `la`
+
+Hold `CMD` for multiple selection.
+
+Toggle block comment: `OPTION + SHIFT + A`
+
+Don't send sensitive data using `GET` method, it is revealed in the URL.
