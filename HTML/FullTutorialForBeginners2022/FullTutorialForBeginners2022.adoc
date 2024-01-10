@@ -198,3 +198,16 @@ Hold `CMD` for multiple selection.
 Toggle block comment: `OPTION + SHIFT + A`
 
 Don't send sensitive data using `GET` method, it is revealed in the URL.
+
+
+==== HTML Project
+
+[source,html]
+----
+<dl>
+    <dt>Sunday-Thursday</dt>
+    <dd>11am-9pm</dd>
+    <dt>Friday-Saturday</dt>
+    <dd>11am-11pm</dd>
+</dl>
+----
