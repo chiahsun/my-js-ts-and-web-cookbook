@@ -85,7 +85,7 @@ Under your project root, edit `.prettierrc.json`. For more options, check https:
 ----
  {
    "files.trimTrailingWhitespace": true,
-   "printWidth": 80,
+   "printWidth": 150,
    "tabWidth": 4,
    "useTabs": false
  }
@@ -182,3 +182,7 @@ Avoid:
 * `span`: no semantic meaning
 
 Install https://chromewebstore.google.com/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo[HTML5 outliner]
+
+==== Create Tables
+
+`&nbsp;`: space
