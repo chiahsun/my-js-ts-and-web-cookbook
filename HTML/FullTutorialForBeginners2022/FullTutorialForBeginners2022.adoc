@@ -6,7 +6,7 @@ https://github.com/gitdagray/html_course[Full Code]
 
 https://chromewebstore.google.com/detail/dark-new-tab/kcphhkbdlfggickaoeiahdcfhagfbajl[Dark new tab]
 
-==== Lesson 01
+==== Getting Started
 
 Download https://code.visualstudio.com/Download#[VS Code]
 
@@ -29,7 +29,7 @@ include::01_lesson/index.html.2.html[]
 <1> Add document type as `html`
 <2> Specify language as `en`
 
-==== Lesson 02
+==== Head Elements
 
 [source,html]
 ----
@@ -44,7 +44,7 @@ include::02_lesson/index.html.1.html[]
 include::02_lesson/main.css[]
 ----
 
-==== Lesson 03
+==== Text Basics
 
 https://stackoverflow.com/questions/40155875/how-can-i-do-tag-wrapping-in-visual-studio-code[Wrap]
 
@@ -52,7 +52,7 @@ https://stackoverflow.com/questions/40155875/how-can-i-do-tag-wrapping-in-visual
 * Emmet: Wrap with Abbreviation
 * e.g. `abbr` > `Enter` > your title content
 
-==== Lesson 04
+==== List Types
 
 Visual select you text > `Cmd + D` to select next same visual element > `Cmd + D` to select next same visual element > Enter `<li>`
 
@@ -93,7 +93,7 @@ Under your project root, edit `.prettierrc.json`. For more options, check https:
 
 * Note that after you save `.prettierrc.json`, you need to reopen the file to make the plugin reload for the change.
 
-==== Lesson 05
+==== Add Links
 
 Type `lorem*1` for Emmet Abbreviation for https://en.wikipedia.org/wiki/Lorem_ipsum[Lorem ipsum]
 
@@ -101,7 +101,7 @@ Use `CMD + <-` for going back on the browsing stack.
 
 Use `target="_blank"` to open the link in a new tab.
 
-==== Lesson 06
+==== Add Images
 
 Type `img` then `TAB` in VS Code for auto-completion.
 
@@ -127,3 +127,58 @@ Resources
 * https://www.canva.com/[Canva]
 
 * https://tinypng.com/[TinyPNG]
+
+==== Semantic Tags
+
+https://www.w3schools.com/html/html5_semantic_elements.asp[W3Schools semantic elements]
+
+Used now
+
+* figcaption
+* figure
+* nav
+* section
+* (hr)
+
+To add
+
+* header
+* main
+* footer
+
+[source,html]
+----
+<nav aria-labelledby="primary-navigation">
+    <h2 id="" primary-navigation>Primary Navigation</h2>
+    <ul>
+        <li><a href="#html">Learn HTML</a></li>
+        <li><a href="#vacation">Planning a Vacation</a></li>
+   </ul>
+</nav>
+----
+
+Use `CMD+D` to change closed tag simultaneously. https://stackoverflow.com/questions/51803668/visual-studio-code-how-to-automatically-change-the-matching-closing-tag[SO]
+
+Select your text > `CMD + SHIFT + P` > Choose `Emmet` plugin > Type `section`.
+
+Type `aside` > `TAB`
+
+[source,html]
+----
+<aside>
+    <details>
+        <summary>
+            Guess the <mark>number of hours</mark> I code per day
+        </summary>
+        <p>I start at <time datetime="08:00">8pm</time> and I write code for <time datetime="PT3H">3 hours</time> every morning.
+        </p>
+    </details>
+</aside>
+----
+
+Avoid:
+
+* `div`: divider without semantic meaning
+* `span`: no semantic meaning
+
+Install https://chromewebstore.google.com/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo[HTML5 outliner]
