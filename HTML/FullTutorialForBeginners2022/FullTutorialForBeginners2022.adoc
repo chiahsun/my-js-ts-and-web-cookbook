@@ -197,10 +197,20 @@ Hold `CMD` for multiple selection.
 
 Toggle block comment: `OPTION + SHIFT + A`
 
-Don't send sensitive data using `GET` method, it is revealed in the URL.
+Use the following code to check the data you send to the website.
 
+[source,html]
+----
+<form action="https://httpbin.org/get" method="get">
+<!-- ... -->
+</form>
+----
+
+Don't send sensitive data using `GET` method, it is revealed in the URL. Use `POST` instead.
 
 ==== HTML Project
+
+https://github.com/gitdagray/html_course/tree/main/10_lesson_starter[Starter] https://github.com/gitdagray/html_course/tree/main/10_lesson[Finished]
 
 [source,html]
 ----
@@ -211,3 +221,7 @@ Don't send sensitive data using `GET` method, it is revealed in the URL.
     <dd>11am-11pm</dd>
 </dl>
 ----
+
+New element: `cite`
+
+Use `& amp;`(without space)  for `&`

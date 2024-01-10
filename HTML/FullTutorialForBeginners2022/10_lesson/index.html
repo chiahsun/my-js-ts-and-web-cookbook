@@ -3,42 +3,49 @@
     <head>
         <title>Little Taco Shop</title>
         <link rel="icon" href="img/taco.svg" />
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header>
             <h1>My Little Taco Shop</h1>
             <nav>
                 <ul>
-                    <li><a href="#about">About LTS</a></li>
+                    <li>
+                        <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                    </li>
                     <li><a href="#menu">Our Menu</a></li>
-                    <li><a href="./hours.html">Store Hours</a></li>
-                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="hours.html">Store Hours</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
             <figure>
-                <img src="img/tacos_and_drink_400x267.png" alt="Tacos and drinks" title="Tacos and drinks" width="400" height="267" />
+                <img src="img/tacos_and_drink_400x267.png" alt="Tacos and a Drink" title="Tacos and drinks" width="400" height="267" />
                 <figcaption>Tacos and a Drink</figcaption>
             </figure>
         </header>
         <hr />
         <main>
             <article id="about">
-                <h2>About LTS</h2>
+                <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
                 <p>
-                    <abbr title="Little Taco Shop">LTS</abbr> was founded in 2020. Our shop was built from a <b>love of tacos</b> 🌮🌮🌮. We hope our
-                    shop adds a unique and interesting place to our little town.
+                    <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a
+                    <strong>love of tacos</strong> 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.
                 </p>
-                <h3>Taco Trivia</h3>
+
                 <aside>
+                    <h3>Taco Trivia</h3>
                     <details>
                         <summary>When did taco first appears in the United States?</summary>
                         <p>
-                            J.M. Pilcher, taco historian and professor of history at the University of Minnesota, says the ealiest mention of tacos in
-                            the United States are in a newspaper from 1905.
+                            Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says the ealiest mention of
+                            tacos in the United States are in a newspaper from <time datetime="1905">1905</time>.
                         </p>
                         <p>
-                            (Source <em><a href="https://www.google.com">S. Magazine</a></em
+                            (Source
+                            <cite
+                                ><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank"
+                                    >S. Magazine</a
+                                ></cite
                             >)
                         </p>
                     </details>
@@ -55,8 +62,8 @@
                     <thead>
                         <tr>
                             <th>Tacos</th>
-                            <th>Qty</th>
-                            <th>Price</th>
+                            <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                            <th scope="col">Price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -74,7 +81,7 @@
                             <td>$3.25</td>
                         </tr>
                         <tr>
-                            <th scope="row" rowspan="4">Soft</th>
+                            <th scope="row" rowspan="3">Soft</th>
                             <td>1</td>
                             <td>$2.00</td>
                         </tr>
@@ -89,7 +96,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="3">Chips & Saisa $ 2</td>
+                            <td colspan="3">Chips &amp; Salsa $2</td>
                         </tr>
                     </tfoot>
                 </table>
