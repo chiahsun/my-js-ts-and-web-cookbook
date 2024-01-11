@@ -1,0 +1,15 @@
+
+
+=== https://www.youtube.com/watch?v=OXGznpKZ_sA[CSS Tutorial - Full Course For Beginners]
+
+https://github.com/gitdagray/css_course[Full source code]
+
+==== Chapter 1: Start Here
+
+Type `!` > `ENTER` for Emmet completion for HTML template.
+
+Type `link` > `TAB`
+
+Type `CMD + X` to cut and `CMD + V` to paste.
+
+https://jigsaw.w3.org/css-validator/[W3C CSS Validation Service]
