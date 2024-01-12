@@ -13,3 +13,29 @@ Type `link` > `TAB`
 Type `CMD + X` to cut and `CMD + V` to paste.
 
 https://jigsaw.w3.org/css-validator/[W3C CSS Validation Service]
+
+==== Chapter 2: Selectors
+
+Keep id selector out CSS as possible.
+
+`h1, h2`: h1 and h2
+
+`h1 h2`: h2 inside h1
+
+Cascading
+
+* Specificity: element < class < id
+* Order
+
+https://specificity.keegan.st/[Specificity Calculator]
+
+`nav > a:hover::before`
+
+* 1 https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes[pseudo-classes]: `:hover`
+* 2 elements and 1 pseudo-elements: `nav`, `a`, `::before`
+
+`ul#primary-nav li.active`
+
+* 1 ID: `#primary-nav`
+* 1 class: `.active`
+* 2 elements: `ul`, `li`
