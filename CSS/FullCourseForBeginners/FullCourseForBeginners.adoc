@@ -39,3 +39,13 @@ https://specificity.keegan.st/[Specificity Calculator]
 * 1 ID: `#primary-nav`
 * 1 class: `.active`
 * 2 elements: `ul`, `li`
+
+==== Chapter 3: Colors
+
+
+https://coolors.co/[Color palettes generator: Coolors.co]
+
+* https://coolors.co/contrast-checker/3e78c0-ffefd5[Poor contrast example]
+
+
+https://webaim.org/resources/contrastchecker/[WebAIM( Web accessibility in mind) Contrast Checker]
