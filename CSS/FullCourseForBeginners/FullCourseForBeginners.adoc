@@ -4,7 +4,7 @@
 
 https://github.com/gitdagray/css_course[Full source code]
 
-==== Chapter 1: Start Here
+==== Start Here
 
 Type `!` > `ENTER` for Emmet completion for HTML template.
 
@@ -14,7 +14,7 @@ Type `CMD + X` to cut and `CMD + V` to paste.
 
 https://jigsaw.w3.org/css-validator/[W3C CSS Validation Service]
 
-==== Chapter 2: Selectors
+==== Selectors
 
 Keep id selector out CSS as possible.
 
@@ -40,8 +40,7 @@ https://specificity.keegan.st/[Specificity Calculator]
 * 1 class: `.active`
 * 2 elements: `ul`, `li`
 
-==== Chapter 3: Colors
-
+==== Colors
 
 https://coolors.co/[Color palettes generator: Coolors.co]
 
@@ -49,3 +48,13 @@ https://coolors.co/[Color palettes generator: Coolors.co]
 
 
 https://webaim.org/resources/contrastchecker/[WebAIM( Web accessibility in mind) Contrast Checker]
+
+==== Units & Sizes
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units[MDN values and units]
+
+* `rem`: font size of the root element
+* `em`: font size of the parent
+* `ch`: The advance measure (width) of the glyph "0" of the element's font.
+
+`p*10>lorem`
