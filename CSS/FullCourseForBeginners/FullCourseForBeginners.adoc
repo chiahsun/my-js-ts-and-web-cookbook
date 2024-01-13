@@ -58,3 +58,20 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_un
 * `ch`: The advance measure (width) of the glyph "0" of the element's font.
 
 `p*10>lorem`
+
+==== Box Model
+
+[source, css]
+----
+box-sizing: content-box;
+box-sizing: border-box;
+----
+
+margin is outside the CSS boxing model and others is decided by `box-sizing`.
+
+Check `computed` tab after opening the inspecting element.
+
+[source,css]
+----
+ padding: 1.5em 2em 3em 4em;
+----
