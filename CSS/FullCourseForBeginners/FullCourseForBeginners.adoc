@@ -75,3 +75,9 @@ Check `computed` tab after opening the inspecting element.
 ----
  padding: 1.5em 2em 3em 4em;
 ----
+
+==== Typography
+
+https://fonts.google.com/[Google fonts]
+
+For external font, you need to put its link before your custom css.
