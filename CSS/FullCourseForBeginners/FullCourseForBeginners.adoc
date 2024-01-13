@@ -81,3 +81,18 @@ Check `computed` tab after opening the inspecting element.
 https://fonts.google.com/[Google fonts]
 
 For external font, you need to put its link before your custom css.
+
+==== Styling Links
+
+https://specificity.keegan.st/[a, a:hover a:visited]
+
+* Specificity: `a:hover` = `a:visited` = `a:active` > `a`
+
+The later overrides what stands before, so we should put as
+
+* `a:visited`
+* `a:hover`
+* `a:active`
+
+
+`a:focus` for screen readers or something other than mouse.
