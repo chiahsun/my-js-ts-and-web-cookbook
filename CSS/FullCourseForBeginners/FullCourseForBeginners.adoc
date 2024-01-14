@@ -165,3 +165,28 @@ https://old.unicode-table.com/en/[Unicode table com]
 Specificity:
 
 * `.columns p` > `.quote`
+
+==== Position
+
+[source,css]
+ position: static;
+
+* Default value for `position` is `static`.
+
+
+`absolute` has its position to its closest ancestor with position as relative.
+
+`relative` has its position relative to its parent.
+
+`fix` has its position relative to the window even if you scroll.
+
+`sticky` has its position with minimum spacing relative to its parent container even if you scroll.
+
+`z-index` is 0 by default.
+
+[source,css]
+ left: -10000px;
+
+* Make things still there for screen reader but make it invisible.
+
+`OPTION + SHIFT + DOWN` to copy selected text and paste below.
