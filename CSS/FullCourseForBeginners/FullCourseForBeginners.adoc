@@ -101,3 +101,22 @@ The later overrides what stands before, so we should put as
 
 ==== Mini Project
 
+==== Display
+
+We cannot apply `margin`, `height` to inline element like `span`.
+
+CSS reset:
+
+[source,css]
+----
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+----
+
+CSS reset.
+
+
+`margin-line`: margin for left and right.
