@@ -147,3 +147,21 @@ or
 display: flow-root
 ----
 
+==== Columns
+
+Margin collapsing
+
+
+To avoid `h2` split into two parts
+
+[source,css]
+break-inside: avoid;
+
+* Maybe we don't need this anymore?
+
+
+https://old.unicode-table.com/en/[Unicode table com]
+
+Specificity:
+
+* `.columns p` > `.quote`
