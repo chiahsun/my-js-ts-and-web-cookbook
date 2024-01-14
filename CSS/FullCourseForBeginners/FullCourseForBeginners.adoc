@@ -96,3 +96,8 @@ The later overrides what stands before, so we should put as
 
 
 `a:focus` for screen readers or something other than mouse.
+
+==== List Styles
+
+==== Mini Project
+
