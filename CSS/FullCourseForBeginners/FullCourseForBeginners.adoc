@@ -118,5 +118,32 @@ CSS reset:
 
 CSS reset.
 
-
 `margin-line`: margin for left and right.
+
+==== Floats
+
+`div.block` > `ENTER`
+
+`p*5>lorem20` > `TAB`
+
+[source,css]
+----
+.left {
+    float: left;
+}
+----
+
+Use
+
+[source,css]
+----
+overflow: auto
+----
+
+or
+
+[source,css]
+----
+display: flow-root
+----
+
