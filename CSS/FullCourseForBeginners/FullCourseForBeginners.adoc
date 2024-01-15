@@ -194,3 +194,21 @@ Specificity:
 ==== Flexbox
 
 https://flexboxfroggy.com/[Flexbox froggy]
+
+`SHIFT + OPTION + F`: Format
+
+* `justify-content`
+
+* `align-items`
+
+* `flex-direction`
+
+* `order`
+
+* `align-self`
+
+* `flex-wrap`
+
+* `flex-flow`
+
+* `align-content`
