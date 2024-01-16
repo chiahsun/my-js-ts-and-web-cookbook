@@ -260,3 +260,11 @@ text-shadow: 2px 2px 5px black;
 https://caniuse.com/[CanIUse.com]
 
 * `background-clip`
+
+==== Media Queries
+
+`!` > `TAB`
+
+`CMD + D`: Select next word
+
+`OPTION + SHIFT + DOWN`: Copy selected and paste below
