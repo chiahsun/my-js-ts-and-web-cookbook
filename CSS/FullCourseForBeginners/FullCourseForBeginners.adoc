@@ -220,3 +220,43 @@ https://cssgridgarden.com/[Grid garden]
 `grid-area`
 
 * `grid-row-start`, `grid-column-start`, `grid-row-end`, `grid-column-end`
+
+==== Image
+
+If you set width and height for image in HTML, after you set percentage for width, you should set height as auto to make it responsive.
+
+[source,css]
+----
+.example img {
+    width: 25%;
+    height: auto;
+}
+----
+
+Image are inline element by default.
+
+
+Make span element nowrap.
+
+[source,css]
+----
+.nowrap {
+    white-space: nowrap;
+}
+----
+
+[source,css]
+----
+text-shadow: 2px 2px 5px black;
+----
+
+[source,css]
+----
+ background-color: hsl(0, 0%, 100%, 0.35);
+----
+
+* Used as a filter
+
+https://caniuse.com/[CanIUse.com]
+
+* `background-clip`
