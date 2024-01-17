@@ -272,3 +272,69 @@ https://caniuse.com/[CanIUse.com]
 ==== Card Project
 
 Select `Show media queries`
+
+==== Pseudo
+
+`is` pseudo selector
+
+Hover your css tag and VS code will show its specificity.
+
+`is` combines the specificity
+
+[source,css]
+----
+:is(header, footer, .card {
+}
+----
+
+`where` gives the specificity of 0 0 0
+
+[source,css]
+----
+:where(header, footer, .card {
+}
+----
+
+[source,css]
+----
+.card img[alt] {
+
+}
+----
+
+* Select any image that has the `alt` attribute
+
+[source,css]
+----
+.card img:not([alt]) {
+  border: 10px solid red;
+}
+----
+
+
+[source,css]
+----
+.card:nth-child(odd) {
+}
+----
+
+* Note that `nth-child` specify elements in HTML. If your order is modified by media query, the result may surprise you.
+
+[source,css]
+----
+.card figcaption::after {
+    content: " hello";
+}
+----
+
+* You cannot select `hello` using the mouse since it's pseudo element.
+
+https://stackoverflow.com/questions/49336584/is-there-a-quick-way-to-delete-an-html-tag-pair-in-vscode[SO: Emmet remove HTML tag pair]
+
+[source,css]
+----
+.card figcaption::first-letter {
+}
+----
+
+* You can try other selectors: `first-line`
