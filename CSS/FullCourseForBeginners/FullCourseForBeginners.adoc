@@ -268,3 +268,7 @@ https://caniuse.com/[CanIUse.com]
 `CMD + D`: Select next word
 
 `OPTION + SHIFT + DOWN`: Copy selected and paste below
+
+==== Card Project
+
+Select `Show media queries`
