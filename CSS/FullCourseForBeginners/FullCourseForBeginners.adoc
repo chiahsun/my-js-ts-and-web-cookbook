@@ -338,3 +338,18 @@ https://stackoverflow.com/questions/49336584/is-there-a-quick-way-to-delete-an-h
 ----
 
 * You can try other selectors: `first-line`
+
+==== Variable
+
+`div.square*12` > `ENTER`
+
+`CMD + SHIFT + L` > Move cursor to front > paste emoji
+
+[source,css]
+----
+.square--hightlight {
+    --SQUARE-BGCOLOR: cornflowerblue;
+}
+----
+
+* Redefine the variable
