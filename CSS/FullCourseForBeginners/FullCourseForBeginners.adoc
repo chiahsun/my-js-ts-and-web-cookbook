@@ -398,3 +398,13 @@ grid-template-columns: repeat(4, minmax(100px, 300px));
 ==== Animations
 
 Use `TAB` to tab through the pages
+
+==== Organization
+
+`CMD + SHIFT + P`: Sort ascending
+
+Naming
+
+* BEM: Block(component), element, modifier
+* For example, `header__btn--lean`
+
