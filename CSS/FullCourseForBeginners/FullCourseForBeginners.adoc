@@ -353,3 +353,43 @@ https://stackoverflow.com/questions/49336584/is-there-a-quick-way-to-delete-an-h
 ----
 
 * Redefine the variable
+
+==== Functions
+
+[source,css]
+----
+{
+--FS: min(2.25rem, 3vh);
+}
+----
+
+* When you change the window height, `vh` changes.
+
+
+[source,css]
+----
+ --FS: clamp(1.75rem, 3vh, 2.25rem);
+----
+
+[source,css]
+----
+a:any-link {
+
+}
+----
+
+* For either non-visited or visited link
+
+[source,css]
+----
+filter: brightness(150%);
+
+filter: hue-rotate(180deg);
+----
+
+[source,css]
+----
+grid-template-columns: repeat(4, minmax(100px, 300px));
+----
+
+* https://developer.mozilla.org/zh-CN/docs/Web/CSS/minmax[MDN minmax]
